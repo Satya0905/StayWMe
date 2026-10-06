@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Just Until The 17th ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         CINEMATIC LOADING SCREEN
+    ========================================== -->
+
+    <div id="loadingScreen" class="loading-screen">
+
+        <div class="loading-content">
+
+            <div class="loading-small">
+                A LITTLE SOMETHING FOR YOU
+            </div>
+
+            <h1>
+                Just Until<br>
+                <span>The 17th...</span>
+            </h1>
+
+            <div class="loading-line"></div>
+
+            <p>
+                For my bestie, Likhi ❤️
+            </p>
+
+            <div class="loading-dot"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         MAIN WEBSITE
+    ========================================== -->
+
+    <main id="app">
+
+
+        <!-- =====================================
+             BACKGROUND LAYERS
+        ====================================== -->
+
+        <div id="backgroundLayer" class="background-layer"></div>
+
+        <div class="cinematic-overlay"></div>
+
+        <div class="vignette"></div>
+
+        <div class="film-grain"></div>
+
+
+        <!-- =====================================
+             PARTICLES
+        ====================================== -->
+
+        <div id="particles" class="particles"></div>
+
+        <div id="hearts" class="hearts"></div>
+
+
+        <!-- =====================================
+             TOP BAR
+        ====================================== -->
+
+        <header class="top-bar">
+
+            <div class="brand">
+                <span>FOR LIKHI</span>
+                <b>♡</b>
+            </div>
+
+            <div class="scene-number">
+                <span id="currentNumber">01</span>
+                <span class="slash">/</span>
+                <span>09</span>
+            </div>
+
+        </header>
+
+
+        <!-- =====================================
+             PROGRESS BAR
+        ====================================== -->
+
+        <div class="progress-wrapper">
+
+            <div class="progress-line">
+                <div
+                    id="progressBar"
+                    class="progress-fill"
+                ></div>
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             SCENE 01
+        ====================================== -->
+
+        <section
+            class="scene scene-01 active"
+            data-scene="1"
+            data-background="screen01.png"
+        >
+
+            <div class="scene-content opening-content">
+
+                <div class="eyebrow">
+                    A LITTLE SOMETHING FOR YOU
+                </div>
+
+                <h1 class="hero-title">
+                    Hey,
+                    <span>Likhi...</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    I have one small request.
+                </p>
+
+                <p class="hero-description">
+                    Before you say no...
+                    <br>
+                    watch this till the end. ❤️
+                </p>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="2"
+                >
+                    <span>LET'S BEGIN</span>
+                    <b>→</b>
+                </button>
+
+                <div class="scroll-hint">
+                    TAP TO CONTINUE
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 02
+        ====================================== -->
+
+        <section
+            class="scene scene-02"
+            data-scene="2"
+            data-background="screen02.png"
+        >
+
+            <div class="scene-content holiday-content">
+
+                <div class="scene-label">
+                    CHAPTER 01
+                </div>
+
+                <h2>
+                    15th
+                </h2>
+
+                <div class="subtitle-line">
+                    DUSSEHRA HOLIDAYS
+                </div>
+
+                <div class="story-text">
+
+                    <p>
+                        Everyone gets a break...
+                    </p>
+
+                    <p>
+                        Everyone gets to go home.
+                    </p>
+
+                    <strong>
+                        But not us. 😂
+                    </strong>
+
+                </div>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="3"
+                >
+                    <span>KEEP GOING</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 03
+        ====================================== -->
+
+        <section
+            class="scene scene-03"
+            data-scene="3"
+            data-background="screen03.png"
+        >
+
+            <div class="scene-content exam-content">
+
+                <div class="scene-label">
+                    ONE MISSION LEFT
+                </div>
+
+                <h2>
+                    17th
+                </h2>
+
+                <div class="exam-title">
+                    NPTEL EXAM
+                </div>
+
+                <div class="exam-card">
+
+                    <div class="exam-row">
+                        <span>Preparation</span>
+                        <b>Questionable 😭</b>
+                    </div>
+
+                    <div class="exam-row">
+                        <span>Tension</span>
+                        <b>100% 💀</b>
+                    </div>
+
+                    <div class="exam-row">
+                        <span>Sleep</span>
+                        <b>What's that? 😂</b>
+                    </div>
+
+                    <div class="exam-row">
+                        <span>Confidence</span>
+                        <b>Let's see... 😭</b>
+                    </div>
+
+                </div>
+
+                <p class="exam-message">
+                    So until the 17th...
+                    <br>
+                    we're still stuck here.
+                </p>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="4"
+                >
+                    <span>AND THEN...</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 04
+        ====================================== -->
+
+        <section
+            class="scene scene-04"
+            data-scene="4"
+            data-background="screen04.png"
+        >
+
+            <div class="scene-content corridor-content">
+
+                <div class="scene-label">
+                    AND THEN YOU SAID...
+                </div>
+
+                <div class="quote-container">
+
+                    <div class="quote-mark">
+                        “
+                    </div>
+
+                    <h2>
+                        I'll move to
+                        <br>
+                        another room...
+                    </h2>
+
+                    <div class="quote-mark closing">
+                        ”
+                    </div>
+
+                </div>
+
+                <p class="reaction-text">
+                    And I was like...
+                </p>
+
+                <div class="why-text">
+                    Why?
+                </div>
+
+                <p class="small-emotional-text">
+                    Because honestly...
+                </p>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="5"
+                >
+                    <span>LET ME EXPLAIN</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 05
+        ====================================== -->
+
+        <section
+            class="scene scene-05"
+            data-scene="5"
+            data-background="screen05.png"
+        >
+
+            <div class="scene-content heart-content">
+
+                <div class="scene-label">
+                    THE REAL REASON
+                </div>
+
+                <div class="not-because">
+
+                    <p>
+                        Not because I want to
+                        <strong>control</strong>
+                        where you stay.
+                    </p>
+
+                    <p>
+                        Not because you
+                        <strong>have to listen</strong>
+                        to me.
+                    </p>
+
+                    <p>
+                        And definitely not because
+                        <strong>you owe me anything.</strong>
+                    </p>
+
+                </div>
+
+                <div class="main-heart-message">
+
+                    <span>
+                        I JUST WANT
+                    </span>
+
+                    <strong>
+                        YOU AROUND.
+                    </strong>
+
+                    <b>♡</b>
+
+                </div>
+
+                <p class="until-text">
+                    Just until the 17th.
+                </p>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="6"
+                >
+                    <span>JUST IMAGINE...</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 06
+        ====================================== -->
+
+        <section
+            class="scene scene-06"
+            data-scene="6"
+            data-background="screen06.png"
+        >
+
+            <div class="scene-content memories-content">
+
+                <div class="scene-label">
+                    IMAGINE THESE TWO DAYS...
+                </div>
+
+                <h2>
+                    Two ordinary days...
+                </h2>
+
+                <p class="memory-intro">
+                    What if they became
+                    <br>
+                    some of our favourite memories?
+                </p>
+
+
+                <!-- MEMORY CARDS -->
+
+                <div class="memory-grid">
+
+                    <div class="memory-card">
+                        <div class="memory-image">
+                            <img
+                                src="photo1.png"
+                                alt="Study together"
+                            >
+                        </div>
+
+                        <span>
+                            📚 Study together
+                        </span>
+                    </div>
+
+
+                    <div class="memory-card">
+                        <div class="memory-image">
+                            <img
+                                src="photo2.png"
+                                alt="Food together"
+                            >
+                        </div>
+
+                        <span>
+                            🍜 Food together
+                        </span>
+                    </div>
+
+
+                    <div class="memory-card">
+                        <div class="memory-image">
+                            <img
+                                src="photo3.png"
+                                alt="Random talks"
+                            >
+                        </div>
+
+                        <span>
+                            😂 Random talks
+                        </span>
+                    </div>
+
+
+                    <div class="memory-card">
+                        <div class="memory-image">
+                            <img
+                                src="photo4.png"
+                                alt="Laugh together"
+                            >
+                        </div>
+
+                        <span>
+                            ❤️ Laugh together
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="memory-bottom-text">
+                    Study.
+                    Eat.
+                    Panic.
+                    Laugh.
+                    Repeat.
+                </div>
+
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="7"
+                >
+                    <span>ONE MORE...</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 07
+        ====================================== -->
+
+        <section
+            class="scene scene-07"
+            data-scene="7"
+            data-background="screen07.png"
+        >
+
+            <div class="scene-content team-content">
+
+                <div class="scene-label">
+                    NOT JUST STUDYING
+                </div>
+
+                <h2>
+                    TEAM
+                    <span>UNTIL THE 17TH</span>
+                </h2>
+
+                <div class="team-cards">
+
+                    <div class="team-item">
+                        <div class="team-icon">
+                            📚
+                        </div>
+
+                        <span>
+                            Study together
+                        </span>
+                    </div>
+
+
+                    <div class="team-item">
+                        <div class="team-icon">
+                            🍜
+                        </div>
+
+                        <span>
+                            Eat together
+                        </span>
+                    </div>
+
+
+                    <div class="team-item">
+                        <div class="team-icon">
+                            😭
+                        </div>
+
+                        <span>
+                            Panic together
+                        </span>
+                    </div>
+
+
+                    <div class="team-item">
+                        <div class="team-icon">
+                            😂
+                        </div>
+
+                        <span>
+                            Laugh together
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="team-quote">
+
+                    <p>
+                        Same stress.
+                    </p>
+
+                    <p>
+                        Same nights.
+                    </p>
+
+                    <strong>
+                        Same team. ❤️
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="8"
+                >
+                    <span>ONE LAST THING</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 08
+        ====================================== -->
+
+        <section
+            class="scene scene-08"
+            data-scene="8"
+            data-background="screen08.png"
+        >
+
+            <div class="scene-content after-content">
+
+                <div class="scene-label">
+                    AFTER THE 17TH...
+                </div>
+
+                <div class="calendar-animation">
+
+                    <span>15</span>
+                    <span>16</span>
+
+                    <strong>
+                        17
+                    </strong>
+
+                </div>
+
+                <h2>
+                    After the exam...
+                </h2>
+
+                <div class="after-list">
+
+                    <p>
+                        Go home.
+                    </p>
+
+                    <p>
+                        Move rooms.
+                    </p>
+
+                    <p>
+                        Do whatever you want.
+                    </p>
+
+                </div>
+
+                <div class="no-pressure">
+                    I won't stop you.
+                </div>
+
+                <div class="pause-text">
+                    But until then...
+                </div>
+
+                <button
+                    class="cinematic-btn next-btn"
+                    data-next="9"
+                >
+                    <span>ONE LAST REQUEST</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SCENE 09
+        ====================================== -->
+
+        <section
+            class="scene scene-09"
+            data-scene="9"
+            data-background="screen09.png"
+        >
+
+            <div class="scene-content finale-content">
+
+                <div class="scene-label">
+                    THE FINAL REQUEST
+                </div>
+
+                <div class="final-heart">
+                    ♡
+                </div>
+
+                <h1>
+                    STAY WITH ME
+                    <br>
+                    <span>TILL THE 17TH?</span>
+                </h1>
+
+                <p class="final-subtitle">
+                    Just two days, Likhi.
+                </p>
+
+                <p class="final-message">
+                    No pressure.
+                    <br>
+                    No forcing.
+                    <br>
+                    I just want my bestie around
+                    <br>
+                    while we survive this exam. ❤️
+                </p>
+
+
+                <!-- FINAL BUTTONS -->
+
+                <div class="final-buttons">
+
+                    <button
+                        id="stayButton"
+                        class="final-btn yes-btn"
+                    >
+                        <span>🤍</span>
+                        YES, I'LL STAY
+                    </button>
+
+
+                    <button
+                        id="thinkButton"
+                        class="final-btn think-btn"
+                    >
+                        LET ME THINK
+                    </button>
+
+                </div>
+
+
+                <div class="final-note">
+                    Whatever you choose...
+                    <br>
+                    you're still my bestie. ❤️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             YES SCREEN
+        ====================================== -->
+
+        <div
+            id="yesScreen"
+            class="yes-screen"
+        >
+
+            <div class="yes-content">
+
+                <div class="celebration-hearts">
+                    ❤️ ❤️ ❤️
+                </div>
+
+                <div class="yes-small">
+                    NPTEL SURVIVAL TEAM
+                </div>
+
+                <h1>
+                    YESS!!
+                </h1>
+
+                <div class="yes-divider"></div>
+
+                <p>
+                    15th → 17th
+                </p>
+
+                <h2>
+                    OFFICIALLY CONFIRMED. 🤝
+                </h2>
+
+                <div class="yes-message">
+
+                    <p>
+                        Study together.
+                    </p>
+
+                    <p>
+                        Panic together.
+                    </p>
+
+                    <p>
+                        Laugh together.
+                    </p>
+
+                    <strong>
+                        Let's make these two days unforgettable. ❤️
+                    </strong>
+
+                </div>
+
+                <button
+                    id="restartButton"
+                    class="cinematic-btn"
+                >
+                    <span>START AGAIN</span>
+                    <b>↻</b>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             THINK SCREEN
+        ====================================== -->
+
+        <div
+            id="thinkScreen"
+            class="think-screen"
+        >
+
+            <div class="think-card">
+
+                <div class="think-icon">
+                    🥹
+                </div>
+
+                <h2>
+                    Take your time...
+                </h2>
+
+                <p>
+                    No pressure, Likhi.
+                </p>
+
+                <p>
+                    I just wanted you to know
+                    how much I'd love to have
+                    you around until the 17th. ❤️
+                </p>
+
+                <button
+                    id="closeThink"
+                    class="cinematic-btn"
+                >
+                    <span>OKAY ❤️</span>
+                    <b>→</b>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             NAVIGATION
+        ====================================== -->
+
+        <div class="navigation">
+
+            <button
+                id="prevBtn"
+                class="nav-btn"
+                aria-label="Previous scene"
+            >
+                ←
+            </button>
+
+
+            <button
+                id="nextBtn"
+                class="nav-btn"
+                aria-label="Next scene"
+            >
+                →
+            </button>
+
+        </div>
+
+
+        <!-- =====================================
+             MUSIC PLAYER
+        ====================================== -->
+
+        <div class="music-player">
+
+            <audio
+                id="backgroundMusic"
+                preload="auto"
+                loop
+            >
+                <source
+                    src="song.mp3"
+                    type="audio/mpeg"
+                >
+            </audio>
+
+
+            <button
+                id="musicToggle"
+                class="music-btn"
+                aria-label="Toggle music"
+            >
+                🎵
+            </button>
+
+
+            <div
+                id="musicStatus"
+                class="music-status"
+            >
+                MUSIC OFF
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             TOUCH / MOBILE HINT
+        ====================================== -->
+
+        <div class="mobile-hint">
+            SWIPE TO EXPLORE
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
